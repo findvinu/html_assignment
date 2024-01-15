@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+  <main class="d-flex">
+    <aside class="sidebar">
+      <a href="#"><img src="assets/images/H-logo.png" alt="logo" /></a>
+      <a class="active" href="#"><img src="assets/images/Reception.png" alt="OVERVIEW" /><span>OVERVIEW</span></a>
+      <a href="#"><img src="assets/images/Agenda_icon.png" alt="SESSIONS" /><span>SESSIONS</span></a>
+      <a href="#"><img src="assets/images/card_icon.png" alt="PEOPLE" /><span>PEOPLE</span></a>
+      <a href="#"><img src="assets/images/exhibitors_Icon.png" alt="VIRTUAL BOOTHS" /><span>VIRTUAL BOOTHS</span></a>
+      <a href="#"><img src="assets/images/card_icon.png" alt="MEETINGS" /><span>MEETINGS</span></a>
+      <a href="#"><img src="assets/images/partners.png" alt="LOUNGE" /><span>LOUNGE</span></a>
+      <a href="#"><img src="assets/images/box.png" alt="ROOMS" /><span>ROOMS</span></a>
+      <a href="#"><img src="assets/images/meeting.png" alt="ENGAGEMENT" /><span>ENGAGEMENT</span></a>
+      <a href="#"><img src="assets/images/partners1.png" alt="BRAND YOUR EVENT" /><span>BRAND YOUR EVENT</span></a>
+      <a href="#"><img src="assets/images/Attendees_icon.png" alt="ANALYTICS" /><span>ANALYTICS</span></a>
+      <a href="#"><img src="assets/images/setting.png" alt="SETTINGS" /><span>SETTINGS</span></a>
+    </aside>
+    <div class="beckdrop"></div>
+    <header class="header d-flex-between">
+      <p class="header__lftArea d-flex-center">
+        <a href="#" class="lftArea__logo"><img src="assets/images/logo.jpg" alt="logo" /></a>
+        <span class="lftArea__logo-text d-none">The August Fest 2019</span>
+      </p>
+      <p class="header__rgtArea d-flex-center">
+        <span class="rgtArea__goLive">Go Live</span>
+        <button class="rgtArea__upgradeBtn btn">Upgrade</button>
+        <span class="rgtArea__notify d-flex-center"><img src="assets/images/bell.svg" alt="Notify" /></span>
+        <span class="rgtArea__userDetail">
+          <img class="userDetail__userImage" src="assets/images/user.png" alt="user" />
+          <select class="userDetail__userName d-none">
+            <option>Mitchel Johnson</option>
+            <option>Item2</option>
+          </select>
+        </span>
+      </p>
+    </header>
+    <section class="contentWrapper">
+      <h1>Sessions</h1>
+      <article class="main-wrapper">
+        <p class="search-wrapper row-wrapper flex-direction-column d-flex-between">
+          <input class="search" type="text" placeholder="Search" />
+          <span class="btn-group">
+            <button class="btn-group__addDyBtn btn">Add Day</button>
+            <button class="btn-group__addSessionBtn btn">Add Session</button>
+          </span>
+        </p>
+        <p class="search-wrapper row-wrapper flex-direction-column d-flex-between">
+          <span class="tab-wrapper  d-flex-center">
+            <a class="arrow-left" href="#"><img src="assets/images/arrow-left.png" alt="arrow" /></a>
+            <span class="tab-inner  d-flex-center">
+              <a href="#" class="tab active">Day1 <strong class="d-none">5th june, 2020</strong></a>
+              <a class="tab" href="#">Day2</a>
+              <a class="tab" href="#">Day3</a>
+              <a class="tab" href="#">Day4</a>
+            </span>
+            <a class="arrow-right" href="#"><img src="assets/images/arrow-right.png" alt="arrow" /></a>
+          </span>
+          <span class="btn-group d-flex-center">
+            <span class="switchLabel">EMPTY SLOTS</span>
+            <label class="switch">
+              <input type="checkbox">
+              <span class="slider round"></span>
+            </label>
+            <a href="#" class="icon filter d-flex-center">
+              <sup class="d-flex-center">2</sup>
+              <img src="assets/images/filter.png" alt="filter" />
+            </a>
+            <a href="#" class="icon calendar d-flex-center">
+              <img src="assets/images/calendar.png" alt="calendar" />
+            </a>
+            <a href="#" class="icon trace d-flex-center">
+              <img src="assets/images/trash-2.png" alt="trace" />
+            </a>
+          </span>
+        </p>
+        <section class="card-wrapper d-flex-between">
+          <div class="card-wrapper__row d-flex-center flex-direction-column">
+            <span class="d-flex-center card-wrapper__time">
+              10:00 AM
+            </span>
+            <article class="card">
+              <h2 class="card__head">Session #1</h2>
+              <span class="card__text">10:00 am - 11:00 am | Seminar Hall #2</span>
+              <p class="card__footer d-flex-between">
+                <span class="card__footer__leftArea">
+                  <img src="assets/images/user.png" alt="image" />
+                  <img class="img img1" src="assets/images/user.png" alt="image" />
+                  <img class="img img2" src="assets/images/user.png" alt="image" />
+                  <span>3+</span>
+                </span>
+                <span class="card__footer__rightArea d-flex-center">
+                  <a href="#"><img src="assets/images/video.png" alt="video" /></a>
+                  <a href="#"><img src="assets/images/trash-2.png" alt="trace" /></a>
+                </span>
+              </p>
+            </article>
+            <article class="card">
+              <h2 class="card__head">Session #2</h2>
+              <span class="card__text">10:00 am - 11:00 am | Seminar Hall #2</span>
+              <p class="card__footer d-flex-between">
+                <span class="card__footer__leftArea">
+                  <img src="assets/images/user.png" alt="image" />
+                  <img class="img img1" src="assets/images/user.png" alt="image" />
+
+                </span>
+                <span class="card__footer__rightArea d-flex-center">
+                  <a href="#"><img src="assets/images/video.png" alt="video" /></a>
+                  <a href="#"><img src="assets/images/trash-2.png" alt="trace" /></a>
+                </span>
+              </p>
+            </article>
+            <article class="card">
+              <h2 class="card__head">Session #3</h2>
+              <span class="card__text">10:00 am - 11:00 am | Seminar Hall #2</span>
+              <p class="card__footer d-flex-between">
+                <span class="card__footer__leftArea">
+                  <img src="assets/images/user.png" alt="image" />
+                  <img class="img img1" src="assets/images/user.png" alt="image" />
+
+                </span>
+                <span class="card__footer__rightArea d-flex-center">
+                  <a href="#"><img src="assets/images/video.png" alt="video" /></a>
+                  <a href="#"><img src="assets/images/trash-2.png" alt="trace" /></a>
+                </span>
+              </p>
+            </article>
+            <a class="add-icon" href="#"><img src="assets/images/add_icon.png" alt="add" /></a>
+          </div>
+          <div class="card-wrapper__row d-flex-center flex-direction-column">
+            <span class="d-flex-center card-wrapper__time">
+              11:00 AM
+            </span>
+            <article class="card">
+              <h2 class="card__head">Session #4</h2>
+              <span class="card__text">10:00 am - 11:00 am | Seminar Hall #2</span>
+              <p class="card__footer d-flex-between">
+                <span class="card__footer__leftArea">
+                  <img src="assets/images/user.png" alt="image" />
+                  <img class="img img1" src="assets/images/user.png" alt="image" />
+                  <img class="img img2" src="assets/images/user.png" alt="image" />
+                  <span>4+</span>
+                </span>
+                <span class="card__footer__rightArea d-flex-center">
+                  <a href="#"><img src="assets/images/video.png" alt="video" /></a>
+                  <a href="#"><img src="assets/images/trash-2.png" alt="trace" /></a>
+                </span>
+              </p>
+            </article>
+            <a class="add-icon" href="#"><img src="assets/images/add_icon.png" alt="add" /></a>
+          </div>
+        </section>
+      </article>
+    </section>
+
+  </main>
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
